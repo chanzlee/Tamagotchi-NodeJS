@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Tamagotchi</title>
+  </head>
+  <body>
+    <h1 class="jumbotron">Tamagotchi</h1>
+    <div class="container">
+
+      <form id="name">
+        <label for="name-input">Enter Name: </label>
+        <input id="name-input" name="name-input" type="text">
+        <button type="submit" class="btn btn-primary">Start!</button>
+      </form>
+
+      <div id="status">
+        <div>
+          <h3>Stats: </h3>
+          <p>Name: <span id="name-status"></span></p>
+          <p>Food: <span id="food-status"></span></p>
+          <p>Play: <span id="play-status"></span></p>
+          <p>Sleep: <span id="sleep-status"></span></p>
+          <p>Life: <span id="life-status"></span></p>
+        </div>
+
+        <button id="food" class="btn btn-info">Food++</button>
+        <button id="play" class="btn btn-success">Play++</button>
+        <button id="sleep" class="btn btn-warning">Sleep++</button>
+      </div>
+    </div>
+  </body>
+</html>
